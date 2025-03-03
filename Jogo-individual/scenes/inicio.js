@@ -17,7 +17,7 @@ class Inicio extends Phaser.Scene {
     create(){
         ///adiciona os elementos da tela
         this.add.image(this.game.config.width /2,this.game.config.height / 2,'backg');
-        this.playBt = this.add.image(this.game.config.width / 2, (this.game.config.height / 2) + 30, 'playBt').setScale(1.5);
+        this.playBt = this.add.image(this.game.config.width / 2, (this.game.config.height / 2) + 30, 'playBt').setScale(0.4);
         this.playBt.setInteractive(); // deixa o botão clicável
 
         this.playBt.on('pointerdown', function(){ // ações ao clicar no botão
