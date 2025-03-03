@@ -10,8 +10,8 @@ class Inicio extends Phaser.Scene {
 
     //carregas elementos da tela
     preload(){
-        this.load.image('backg', "assets/telaInicial.png");
-        this.load.image('playBt', "assets/playBt.png");
+        this.load.image('backg', "Jogo-individual/assets/telaInicial.png");
+        this.load.image('playBt', "Jogo-individual/assets/playBt.png");
     }
     //adicionando elementos na tela
     create(){
@@ -22,8 +22,6 @@ class Inicio extends Phaser.Scene {
 
         this.playBt.on('pointerdown', function(){ // ações ao clicar no botão
             this.scene.stop('Inicio');
-            this.scene.stop('CarroCun');
-            console.log('trocu')
             this.scene.start('CarroCun');
         },this);
     }

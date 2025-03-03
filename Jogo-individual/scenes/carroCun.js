@@ -50,16 +50,16 @@ class CarroCun extends Phaser.Scene {
     }
     //carregando os objetos que estarão em cena
     preload() {
-        this.load.image('bg', "assets/fundoJogo.png");
-        this.load.image('carroAzul', "assets/carroAzul.png");
-        this.load.image('carroVerde', "assets/carroVerde.png");
-        this.load.image('carroAmarelo', "assets/carroAmarelo.png");
-        this.load.image('carroVermelho', "assets/carroVermelho.png");
-        this.load.image('carroJogador', "assets/carroJogador.png");
-        this.load.image('camaFaquir', "assets/camaFaquir.png");
-        this.load.image('gameOver', "assets/gameOver.png");
-        this.load.image('restartBt', "assets/restartBt.png");
-        this.load.image('boost', "assets/turbo.png");
+        this.load.image('bg', "Jogo-individual/assets/fundoJogo.png");
+        this.load.image('carroAzul', "Jogo-individual/assets/carroAzul.png");
+        this.load.image('carroVerde', "Jogo-individual/assets/carroVerde.png");
+        this.load.image('carroAmarelo', "Jogo-individual/assets/carroAmarelo.png");
+        this.load.image('carroVermelho', "Jogo-individual/assets/carroVermelho.png");
+        this.load.image('carroJogador', "Jogo-individual/assets/carroJogador.png");
+        this.load.image('camaFaquir', "Jogo-individual/assets/camaFaquir.png");
+        this.load.image('gameOver', "Jogo-individual/assets/gameOver.png");
+        this.load.image('restartBt', "Jogo-individual/assets/restartBt.png");
+        this.load.image('boost', "Jogo-individual/assets/turbo.png");
     }
 
     create() {
