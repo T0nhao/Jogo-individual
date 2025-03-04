@@ -14,25 +14,23 @@ class CarroCun extends Phaser.Scene {
             obj: null
 
         }
-        this.gameControls = {
+        this.gameControls = {  // pontuação e condição atual do jogo
             over: false,
             score: 0,
             restartBt: null,
         };
 
         this.objects = this.physics.add.group();
-        this.objectsConfig = {
+        this.objectsConfig = { // quantidade de elementos na tela e velocidade
             count: 7,
-            minY: -500,
-            maxT: -500,
             screenSpeed: -3,
         };
-        this.player = {
+        this.player = { // configuração do carro principal
             width:17,
             height: 32,
             obj: null,
         }
-        this.faquir = {
+        this.faquir = { //cama de faquir que passa pela tela
             y: 100,
             x1: 110,
             x2: 250,
